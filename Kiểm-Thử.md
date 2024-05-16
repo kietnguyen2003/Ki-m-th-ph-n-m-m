@@ -5,7 +5,6 @@
 - Final test: thi viết.
 
 # Tester Fundamental
-
 ## [What is Software Testing? Introduction, Definition, Basics & Types](https://www.guru99.com/software-testing-introduction-importance.html)
   ### Introduction
   - Là phương pháp để kiểm tra liệu sản phẩm phần mềm thực tế có phù hợp với các yêu cầu.
@@ -63,8 +62,8 @@
   + *Scalability*: Kiểm tra mức độ có thể phát triển của phần mềm.
   + *Usability*: Kiểm tra khả năng sử dụng của người dùng (bằng cách phỏng vấn, làm khảo sát,...) thường được sử dụng ở giai đoạn thiết kế, giai đoạn phát triển, giai đoạn thử nghiệm.
    #### Maintenance (Regression and Maintenance)
-  + *Regression*: Kiểm thử quy hồi là kiểm tra xem các bản cập nhật hay thay đổi của phần mềm có lỗi hay có ảnh hưởng gì đến phần mềm hay không?
-  + *Maintenance*: Kiểm thử bảo trì được thực hiện sau khi phần mềm được phát hành và đưa vào sử dụng. Mục đích là đảm bảo phần mềm vẫn hoạt động chính xác, hiệu quả và đáp ứng đầy đủ các nhu cầu của người dùng.
+  + *Regression*: **Kiểm thử quy hồi** là kiểm tra xem các bản cập nhật hay thay đổi của phần mềm có lỗi hay có ảnh hưởng gì đến phần mềm hay không?
+  + *Maintenance*: **Kiểm thử bảo trì** được thực hiện sau khi phần mềm được phát hành và đưa vào sử dụng. Mục đích là đảm bảo phần mềm vẫn hoạt động chính xác, hiệu quả và đáp ứng đầy đủ các nhu cầu của người dùng.
   ### Summary of ST Basic:
   - Kiểm thử rất quan trọng bởi vì lỗi phần mềm sẽ gây thiết hại lớn về tiền và rất nguy hiểm.
   - Lý do quan trọng cho việc kiểm thử: tiết kiệm chi phí, bảo mật, chất lượng sản phẩm, và trãi nghiệm người dùng
@@ -72,42 +71,39 @@
   - Các important strategies: unit test, integration test, validation test, system test (AUT)
 ## [Software Testing as a Career Path (Skills, Salary, Growth)](https://www.guru99.com/software-testing-career-complete-guide.html)
   ### Skills
-    - Non-Technical Skills 
-      + Analytical skills
-      + Communication skills
-      + Time Management and Organization Skills (khả năng quản lý)
-      + Great attitude
-      + Passion.
-    - Technical Skills
-      + Basic knowledge of Database/SQL (https://www.guru99.com/sql.html)
-      + Basic of Linux commands (https://www.guru99.com/unix-linux-tutorial.html)
-      + Kiến thức và trãi nghiệm về các công cụ test (
-          https://www.guru99.com/test-management.html, 
-          https://www.guru99.com/testlink-tutorial-complete-guide.html
-        )
-      + Kiến thức và trãi nghiệm về các công cụ theo dõi lỗi (Defect Tracking Tool) (
-          https://www.guru99.com/defect-life-cycle.html, 
-          https://www.guru99.com/hp-alm-free-tutorial.html, 
-          https://www.guru99.com/bugzilla-tutorial-for-beginners.html, 
-          https://www.guru99.com/jira-tutorial-a-complete-guide-for-beginners.html
-        )
-      + Kiến thức và trãi nghiệm về các công cụ tự động (https://www.guru99.com/best-automation-testing-tools.html)
+  - Non-Technical Skills 
+    + Analytical skills
+    + Communication skills
+    + Time Management and Organization Skills (khả năng quản lý)
+    + Great attitude
+    + Passion.
+  - Technical Skills
+    + Basic knowledge of Database/SQL (https://www.guru99.com/sql.html)
+    + Basic of Linux commands (https://www.guru99.com/unix-linux-tutorial.html)
+    + Kiến thức và trãi nghiệm về các công cụ test (
+        https://www.guru99.com/test-management.html, 
+        https://www.guru99.com/testlink-tutorial-complete-guide.html
+      )
+    + Kiến thức và trãi nghiệm về các công cụ theo dõi lỗi (Defect Tracking Tool) (
+        https://www.guru99.com/defect-life-cycle.html, 
+        https://www.guru99.com/hp-alm-free-tutorial.html, 
+        https://www.guru99.com/bugzilla-tutorial-for-beginners.html, 
+        https://www.guru99.com/jira-tutorial-a-complete-guide-for-beginners.html
+      )
+    + Kiến thức và trãi nghiệm về các công cụ tự động (https://www.guru99.com/best-automation-testing-tools.html)
   ### Salary (https://vietnamsalary.careerviet.vn/detail/Software-Tester-kw)
   ### Growth
-  Software Testing -> Selenium -> Jmeter -> Test Link -> Apply for Permanent Jobs
-                    |           |         |            |
-                    v           v         v            v
-                    ---> Apply for Freelancing Jobs <---
+  ![alt text](image.png)
   Notes:
-    Selenium:Automation tool
-    Jmeter: Performance Testing tool
-    Test Link: Test Management Tool
+  + Selenium: Automation tool
+  + Jmeter: Performance Testing tool
+  + Test Link: Test Management Tool
   ### Career Path
-    1. QA Analyst (Fresher)
-    2. Sr. QA Analyst (2-3 years’ experience)
-    3. QA Team Coordinator (5-6 years’ experience)
-    4. Test Manager (8-11 years’ experience)
-    5. Senior Test Manager (14+ experience)
+  1. QA Analyst (Fresher)
+  2. Sr. QA Analyst (2-3 years’ experience)
+  3. QA Team Coordinator (5-6 years’ experience)
+  4. Test Manager (8-11 years’ experience)
+  5. Senior Test Manager (14+ experience)
 ## 7 Software Testing Principles: **Learn with Examples**
   ### Exhaustive testing is not possible: **Không thể kiểm soát hết lỗi**
   ### Defect clustering: **Phân loại lỗi theo cụm**
