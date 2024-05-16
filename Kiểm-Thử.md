@@ -225,20 +225,17 @@
   + Đầu vào: Hoàn thành RTM cùng trạng thái thực thi + Các test cases đã được update cùng với kết quả + Báo cáo Defect.
   + Đầu ra: Báo cáo kết thúc Test + Test Metrics.
   ### Q&A:
-  + 1. Giai đoạn chuẩn bị test script và test data: **Test Design**
-  + 2. Giai đoạn nào mà test case đươc phát triển dựa vào Software Requirement: **Test Design**
-  + 3. Giai đoạn đầu tiên của STLC: **Test Planning**
-  + 4. Which phase involves defining the scope, objectives, resources, and schedule for testing?: **Test Planning**
-  + 5. Khi nào việc Test mà THẬT SỰ được thực hiện?: **Test Execution**
-  + 6. Giai đoạn nào bao gồm so sánh kết quả thực thi với kết quả được yêu cầu: **Test Execution**
-  + 7. Giai đoạn tổng hợp các hoạt động test và báo cáo test summary: **Test Closure**
-  + 8. Giai đoạn nào đảm bảo rằng tất cả các sản phẩm thử nghiệm được hoàn thiện và lưu trữ?: **Test Closure**
-  + 9. Mục đích của Test Execution: **To execute test case.**
-  + 10. What is the primary goal of the Test Closure phase?: **To formally close the testing activities**
-  + 11. Liên kết mỗi bước của vòng đời phát triển phần mềm với vòng đời kiểm thử phần mềm
-    **Business Requirements:**    *Acceptance tests*
-    **Hi-Level design**:          *Integration tests*
-    **Low-Level design**:         *Unit tests*
-    **Functional Specification**: *System tests*
+  + Giai đoạn chuẩn bị test script và test data: **Test Design**
+  + Giai đoạn nào mà test case đươc phát triển dựa vào Software Requirement: **Test Design**
+  + Giai đoạn đầu tiên của STLC: **Test Planning**
+  + Which phase involves defining the scope, objectives, resources, and schedule for testing?: **Test Planning**
+  + Khi nào việc Test mà THẬT SỰ được thực hiện?: **Test Execution**
+  + Giai đoạn nào bao gồm so sánh kết quả thực thi với kết quả được yêu cầu: **Test Execution**
+  + Giai đoạn tổng hợp các hoạt động test và báo cáo test summary: **Test Closure**
+  + Giai đoạn nào đảm bảo rằng tất cả các sản phẩm thử nghiệm được hoàn thiện và lưu trữ?: **Test Closure**
+  + Mục đích của Test Execution: **To execute test case.**
+  + What is the primary goal of the Test Closure phase?: **To formally close the testing activities**
+  + Liên kết mỗi bước của vòng đời phát triển phần mềm với vòng đời kiểm thử phần mềm
+  ![alt text](image-1.png)
 
  
