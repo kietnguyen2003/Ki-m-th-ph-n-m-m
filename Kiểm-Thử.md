@@ -94,6 +94,7 @@
   ### Salary (https://vietnamsalary.careerviet.vn/detail/Software-Tester-kw)
   ### Growth
   ![alt text](image.png)
+  
   Notes:
   + Selenium: Automation tool
   + Jmeter: Performance Testing tool
@@ -114,8 +115,8 @@
   ### Absence of errors fallacy **Không có lỗi là ngụy biện**
   ### Early testing: **Test sớm**
   ### Testing is context dependent: **Việc kiểm thử tùy thuộc vào ngữ cảnh**
-    + Tất cả các phần mềm đều khác nhau, vì vậy ta cần tìm hiểu, và sử dụng các approach, methodologies, techniques, và nhiều loại test khác nhau sao cho phù hợp với ứng dụng.
-    + For instance testing, any POS system at a retail store will be different than testing an ATM machine.
+  + Tất cả các phần mềm đều khác nhau, vì vậy ta cần tìm hiểu, và sử dụng các approach, methodologies, techniques, và nhiều loại test khác nhau sao cho phù hợp với ứng dụng.
+  + For instance testing, any POS system at a retail store will be different than testing an ATM machine.
 ## [What is V Model in Software Testing? Learn with SDLC & STLC Example](https://www.guru99.com/v-model-software-testing.html)
 ## [STLC - Software Testing Life Cycle Phases & Entry, Exit Criteria](https://www.guru99.com/software-testing-life-cycle.html)
   + **Software Testing Life Cycle** là một chuỗi các hoạt động độc lập trong quá trình Kiểm thử nhằm đảm bảo được mục tiêu chất lượng của phần mềm.
@@ -123,21 +124,21 @@
   + KHông như mọi người nghĩ, Kiểm thử phần mềm không phải là 1 hoạt động đơn lẻ/độc lập, mà nó bao gồm một chuỗi các sự kiện có phương pháp cụ thể, nhằm **chứng nhận** sản phẩm của các bạn.
   ### STLC phases
   [STLC in Software Testing](https://www.youtube.com/watch?v=Dq5IYYqnnGQ&embeds_referring_euri=https%3A%2F%2Fwww.guru99.com%2F&feature=emb_imp_woyt)
-    Gồm 6 giai đoạn chính:
-    + ***Requirements Analysis***
-    + ***Test Planning***
-    + ***Test Case Development***
-    + ***Environment Setup***
-    + ***Test Excution***
-    + ***Test Cycle Closure***
-    Mỗi giai đoạn đều có **Entry and Exit criteria** và **Deliverables**
+  Gồm 6 giai đoạn chính:
+  + ***Requirements Analysis***
+  + ***Test Planning***
+  + ***Test Case Development***
+  + ***Environment Setup***
+  + ***Test Excution***
+  + ***Test Cycle Closure***
+  Mỗi giai đoạn đều có **Entry and Exit criteria** và **Deliverables**
   ### Entry and Exit Criteria
     ### Entry Criteria (Tiêu chí đầu vào): 
-      Entry Criteria đưa ra các mục tiên quyết phải được hoàn thành trước khi thử nghiệm có thể bắt đầu.
+    Entry Criteria đưa ra các mục tiên quyết phải được hoàn thành trước khi thử nghiệm có thể bắt đầu.
     ### Exit Criteria (Tiêu chuẩn đầu ra):
-      Exit Criteria quy định mục phải được hoàn thành trước khi việc kiểm thử được hoàn thành.
+    Exit Criteria quy định mục phải được hoàn thành trước khi việc kiểm thử được hoàn thành.
   ### 1. Requirement Phase Testing: Phân tích yêu cầu
-    Kiểm thử giai đoạn yêu cầu còn được gọi là **Phân tích yêu cầu**, trong đó nhóm kiểm thử nghiên cứu các yêu cầu từ quan điểm kiểm thử để xác định các yêu cầu có thể kiểm thử được và nhóm QA có thể tương tác với các bên liên quan khác nhau để hiểu chi tiết các yêu cầu. Yêu cầu có thể là chức năng hoặc phi chức năng. Tính khả thi về tự động hóa cho dự án thử nghiệm cũng được thực hiện trong giai đoạn này.
+  Kiểm thử giai đoạn yêu cầu còn được gọi là **Phân tích yêu cầu**, trong đó nhóm kiểm thử nghiên cứu các yêu cầu từ quan điểm kiểm thử để xác định các yêu cầu có thể kiểm thử được và nhóm QA có thể tương tác với các bên liên quan khác nhau để hiểu chi tiết các yêu cầu. Yêu cầu có thể là chức năng hoặc phi chức năng. Tính khả thi về tự động hóa cho dự án thử nghiệm cũng được thực hiện trong giai đoạn này.
     #### Activites:
     + Xác định các loại test cần thực hiện
     + Thu thập và Tập trung vào các thành phần về **Testing Prorities**
@@ -148,8 +149,8 @@
     + RTM
     + Các khả năng tự động hóa (nếu có)
   ### 2. Test Plaining:
-    Là thời điểm để lên kế hoạch cho việc kiểm thử và ước tính về chi phí cho dự án.
-    Bên cạnh đó, the resources, test environment, test limitations and the testing schedule are also determined.
+  Là thời điểm để lên kế hoạch cho việc kiểm thử và ước tính về chi phí cho dự án.
+  Bên cạnh đó, the resources, test environment, test limitations and the testing schedule are also determined.
     #### Activites::
     + Chuẩn bị cho test plan/tài liệu chiến lược cho nhiều loại testing.
     + Lựa chọn công cụ test.
@@ -160,7 +161,7 @@
     + Test plan/strategy document.
     + Effort estimation document
   ### 3. Test case Development:
-    Liên quan tới việc create, verification, rework of test case và test scripts sao khi test plan đã sẵn sàng.
+  Liên quan tới việc create, verification, rework of test case và test scripts sao khi test plan đã sẵn sàng.
     #### Activities
     + Tạo test case, viết automation script
     + Tạo test case data
