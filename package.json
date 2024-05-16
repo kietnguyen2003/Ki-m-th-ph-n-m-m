@@ -1,0 +1,11 @@
+{
+  "name": "note",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest",
+    "cv": "jest --coverage"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
