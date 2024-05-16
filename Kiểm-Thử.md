@@ -133,9 +133,9 @@
   + ***Test Cycle Closure***
   Mỗi giai đoạn đều có **Entry and Exit criteria** và **Deliverables**
   ### Entry and Exit Criteria
-    ### Entry Criteria (Tiêu chí đầu vào): 
+    #### Entry Criteria (Tiêu chí đầu vào): 
     Entry Criteria đưa ra các mục tiên quyết phải được hoàn thành trước khi thử nghiệm có thể bắt đầu.
-    ### Exit Criteria (Tiêu chuẩn đầu ra):
+    #### Exit Criteria (Tiêu chuẩn đầu ra):
     Exit Criteria quy định mục phải được hoàn thành trước khi việc kiểm thử được hoàn thành.
   ### 1. Requirement Phase Testing: Phân tích yêu cầu
   Kiểm thử giai đoạn yêu cầu còn được gọi là **Phân tích yêu cầu**, trong đó nhóm kiểm thử nghiên cứu các yêu cầu từ quan điểm kiểm thử để xác định các yêu cầu có thể kiểm thử được và nhóm QA có thể tương tác với các bên liên quan khác nhau để hiểu chi tiết các yêu cầu. Yêu cầu có thể là chức năng hoặc phi chức năng. Tính khả thi về tự động hóa cho dự án thử nghiệm cũng được thực hiện trong giai đoạn này.
