@@ -70,7 +70,6 @@
   - Lý do quan trọng cho việc kiểm thử: tiết kiệm chi phí, bảo mật, chất lượng sản phẩm, và trãi nghiệm người dùng
   - Có 3 loại test: functional, non-functional, maintenance.
   - Các important strategies: unit test, integration test, validation test, system test (AUT)
-  
 ## [Software Testing as a Career Path (Skills, Salary, Growth)](https://www.guru99.com/software-testing-career-complete-guide.html)
   ### Skills
     - Non-Technical Skills 
@@ -126,105 +125,123 @@
   + **Software Testing Life Cycle** là một chuỗi các hoạt động độc lập trong quá trình Kiểm thử nhằm đảm bảo được mục tiêu chất lượng của phần mềm.
   + STLC bao gồm **verification** và **validation** activities.
   + KHông như mọi người nghĩ, Kiểm thử phần mềm không phải là 1 hoạt động đơn lẻ/độc lập, mà nó bao gồm một chuỗi các sự kiện có phương pháp cụ thể, nhằm **chứng nhận** sản phẩm của các bạn.
-## STLC phases
-[STLC in Software Testing](https://www.youtube.com/watch?v=Dq5IYYqnnGQ&embeds_referring_euri=https%3A%2F%2Fwww.guru99.com%2F&feature=emb_imp_woyt)
-  Gồm 6 giai đoạn chính:
-  + ***Requirements Analysis***
-  + ***Test Planning***
-  + ***Test Case Development***
-  + ***Environment Setup***
-  + ***Test Excution***
-  + ***Test Cycle Closure***
-  Mỗi giai đoạn đều có **Entry and Exit criteria** và **Deliverables**
-## Entry and Exit Criteria
-  ### Entry Criteria (Tiêu chí đầu vào): 
-    Entry Criteria đưa ra các mục tiên quyết phải được hoàn thành trước khi thử nghiệm có thể bắt đầu.
-  ### Exit Criteria (Tiêu chuẩn đầu ra):
-    Exit Criteria quy định mục phải được hoàn thành trước khi việc kiểm thử được hoàn thành.
-## 1. Requirement Phase Testing: Phân tích yêu cầu
-  Kiểm thử giai đoạn yêu cầu còn được gọi là **Phân tích yêu cầu**, trong đó nhóm kiểm thử nghiên cứu các yêu cầu từ quan điểm kiểm thử để xác định các yêu cầu có thể kiểm thử được và nhóm QA có thể tương tác với các bên liên quan khác nhau để hiểu chi tiết các yêu cầu. Yêu cầu có thể là chức năng hoặc phi chức năng. Tính khả thi về tự động hóa cho dự án thử nghiệm cũng được thực hiện trong giai đoạn này.
-  ### Activites:
-  + Xác định các loại test cần thực hiện
-  + Thu thập và Tập trung vào các thành phần về **Testing Prorities**
-  + Chuẩn bị [Requirement Traceability Matrix](https://www.guru99.com/traceability-matrix.html)
-  + Xác định chi tiết các môi trường nên mà việc test sẽ được thực hiện.
-  + Phân tích các khả năng tự động hóa.
-  ### Thứ cần bàn giao:
-  + RTM
-  + Các khả năng tự động hóa (nếu có)
-## 2. Test Plaining:
-  Là thời điểm để lên kế hoạch cho việc kiểm thử và ước tính về chi phí cho dự án.
-  Bên cạnh đó, the resources, test environment, test limitations and the testing schedule are also determined.
-  ### Activites::
-  + Chuẩn bị cho test plan/tài liệu chiến lược cho nhiều loại testing.
-  + Lựa chọn công cụ test.
-  + Ước tính Test effort.
-  + Resource planning and determining roles and responsibilities.
-  + Training requirement.
-  ### Thứ cần bàn giao:
-  + Test plan/strategy document.
-  + Effort estimation document
-## 3. Test case Development:
-  Liên quan tới việc create, verification, rework of test case và test scripts sao khi test plan đã sẵn sàng.
-  ### Activities
-  + Tạo test case, viết automation script
-  + Tạo test case data
-  ### Thứ cần bàn giao:
-  + Test case/script.
-  + Test data.
-## 4. Test Environment Setup:
-  + Quyết định các điều kiện mà software và hardware của sản phẩm sẽ được test ở đâu.
-  + Có thể thực hiện song song với quá trình Test case Development.
-  + Nhóm kiểm tra được yêu cầu thực hiện kiểm tra mức độ sẵn sàng (**kiểm tra khói**) của môi trường nhất định.
-  ### Activities:
-  + Hiểu kiến trúc, môi trường set-up được yêu cầu và chuẩn bị danh sách sortware + hardware được yêu ucaauf cho Test Environment.
-  + Setup Test Environemt.
-  + Thực hiện Smoke Test (kiểm tra độ sẵn sàng của sản phẩm) trên chương trình.
-  ### Thứ cần bàn giao:
-  + Môi trường đã sẵn sàng cùng với test data setup
-  + Kết quả của Smoke Test.
-## 5. Test Execution Phase:
-  + Được thực hiện bởi tester trong đó, việc kiểm tra được hoàn thành dựa vào test plan và test cases được chuẩn bị trước.
-  + Quá trình bao gồm: Test script execution, Test script maintenance và báo cáo lỗi.
-  + Nếu lỗi được báo cáo, sản phẩm sẽ gửi trả lại nhóm phát triển để kiểm tra và việc test sẽ được tiếp diễn.
-  ### Activities:
-  + Thực hiện test trên từng kế hoạch.
-  + Đưa ra văn bản kết quả của test, và log các trường hợp test thất bại.
-  + Tổng hợp kết quả test cases vào trong RTM
-  + Kiểm tra lại các bản bị lỗi.
-  + Theo dõi các defects để sữa chữa.
-  ### Thứ cần được bàn giao:
-  + Hoàn thành RTM cùng trạng thái thực thi.
-  + Các test cases đã được update cùng với kết quả.
-  + Báo cáo Defect.
-## 6. Test Cycle Closure:
-  + Giai đoạn kết thúc kiểm thử bao gồm hoàn thành báo cáo, 
-  + thu thập đầy đủ RTM và kết quả.
-  ### Activities:
-  + Đánh giá các tiêu chí hoàn thành chu trình dựa trên Time, Test coverage, Cost,Software, Critical Business Objectives, Quality.
-  + Chuẩn bị test metrics dựa trên các thông số trên.
-  + Ghi lại quá trình làm việc ngoài dự á.
-  + Báo cáo về định lượng và chất lượng của sản phẩm cho khách hàng.
-  + Phân tích kết quả kiểm thử để tìm ra sự phân bố lỗi theo loại và mức độ nghiêm trọng.
-  ### Thứ cần bàn giao:
-  + Báo cáo kết thúc Test.
-  + Test Metrics.
-## Summary:
-  ### Phân tích yêu cầu:
-  + Đầu vào: Các tài liệu sẵn có + Miêu tả tiêu chí đầu ra + Tài liệu về kiến trúc ứng dụng
-  + Đầu ra: RTM + các khả năng tự động hóa
-  ### Lên kết hoạch test:
-  + Đầu vào: RTM + các khả năng tự động hóa
-  + Đầu ra: Test plan/strategy document + Effort estimation document
-  ### Phát triển test case:
-  + Đầu vào: Test plan/strategy document + Effort estimation document
-  + Đầu ra: Test case/script + Test data.
-  ### Thiết lập môi trường test:
-  + Đầu vào: Test case/script + Test data.
-  + Đầu ra: Môi trường đã sẵn sàng cùng với test data setup + Kết quả của Smoke Test.
-  ### Thực thi test:
-  + Đầu vào: Môi trường đã sẵn sàng cùng với test data setup + Kết quả của Smoke Test.
-  + Đầu ra: Hoàn thành RTM cùng trạng thái thực thi + Các test cases đã được update cùng với kết quả + Báo cáo Defect.
-  ### Kết thúc vòng lặp:
-  + Đầu vào: Hoàn thành RTM cùng trạng thái thực thi + Các test cases đã được update cùng với kết quả + Báo cáo Defect.
-  + Đầu ra: Báo cáo kết thúc Test + Test Metrics.
+  ### STLC phases
+  [STLC in Software Testing](https://www.youtube.com/watch?v=Dq5IYYqnnGQ&embeds_referring_euri=https%3A%2F%2Fwww.guru99.com%2F&feature=emb_imp_woyt)
+    Gồm 6 giai đoạn chính:
+    + ***Requirements Analysis***
+    + ***Test Planning***
+    + ***Test Case Development***
+    + ***Environment Setup***
+    + ***Test Excution***
+    + ***Test Cycle Closure***
+    Mỗi giai đoạn đều có **Entry and Exit criteria** và **Deliverables**
+  ### Entry and Exit Criteria
+    ### Entry Criteria (Tiêu chí đầu vào): 
+      Entry Criteria đưa ra các mục tiên quyết phải được hoàn thành trước khi thử nghiệm có thể bắt đầu.
+    ### Exit Criteria (Tiêu chuẩn đầu ra):
+      Exit Criteria quy định mục phải được hoàn thành trước khi việc kiểm thử được hoàn thành.
+  ### 1. Requirement Phase Testing: Phân tích yêu cầu
+    Kiểm thử giai đoạn yêu cầu còn được gọi là **Phân tích yêu cầu**, trong đó nhóm kiểm thử nghiên cứu các yêu cầu từ quan điểm kiểm thử để xác định các yêu cầu có thể kiểm thử được và nhóm QA có thể tương tác với các bên liên quan khác nhau để hiểu chi tiết các yêu cầu. Yêu cầu có thể là chức năng hoặc phi chức năng. Tính khả thi về tự động hóa cho dự án thử nghiệm cũng được thực hiện trong giai đoạn này.
+    #### Activites:
+    + Xác định các loại test cần thực hiện
+    + Thu thập và Tập trung vào các thành phần về **Testing Prorities**
+    + Chuẩn bị [Requirement Traceability Matrix](https://www.guru99.com/traceability-matrix.html)
+    + Xác định chi tiết các môi trường nên mà việc test sẽ được thực hiện.
+    + Phân tích các khả năng tự động hóa.
+    #### Thứ cần bàn giao:
+    + RTM
+    + Các khả năng tự động hóa (nếu có)
+  ### 2. Test Plaining:
+    Là thời điểm để lên kế hoạch cho việc kiểm thử và ước tính về chi phí cho dự án.
+    Bên cạnh đó, the resources, test environment, test limitations and the testing schedule are also determined.
+    #### Activites::
+    + Chuẩn bị cho test plan/tài liệu chiến lược cho nhiều loại testing.
+    + Lựa chọn công cụ test.
+    + Ước tính Test effort.
+    + Resource planning and determining roles and responsibilities.
+    + Training requirement.
+    #### Thứ cần bàn giao:
+    + Test plan/strategy document.
+    + Effort estimation document
+  ### 3. Test case Development:
+    Liên quan tới việc create, verification, rework of test case và test scripts sao khi test plan đã sẵn sàng.
+    #### Activities
+    + Tạo test case, viết automation script
+    + Tạo test case data
+    #### Thứ cần bàn giao:
+    + Test case/script.
+    + Test data.
+  ### 4. Test Environment Setup:
+    + Quyết định các điều kiện mà software và hardware của sản phẩm sẽ được test ở đâu.
+    + Có thể thực hiện song song với quá trình Test case Development.
+    + Nhóm kiểm tra được yêu cầu thực hiện kiểm tra mức độ sẵn sàng (**kiểm tra khói**) của môi trường nhất định.
+    #### Activities:
+    + Hiểu kiến trúc, môi trường set-up được yêu cầu và chuẩn bị danh sách sortware + hardware được yêu ucaauf cho Test Environment.
+    + Setup Test Environemt.
+    + Thực hiện Smoke Test (kiểm tra độ sẵn sàng của sản phẩm) trên chương trình.
+    #### Thứ cần bàn giao:
+    + Môi trường đã sẵn sàng cùng với test data setup
+    + Kết quả của Smoke Test.
+  ### 5. Test Execution Phase:
+    + Được thực hiện bởi tester trong đó, việc kiểm tra được hoàn thành dựa vào test plan và test cases được chuẩn bị trước.
+    + Quá trình bao gồm: Test script execution, Test script maintenance và báo cáo lỗi.
+    + Nếu lỗi được báo cáo, sản phẩm sẽ gửi trả lại nhóm phát triển để kiểm tra và việc test sẽ được tiếp diễn.
+    #### Activities:
+    + Thực hiện test trên từng kế hoạch.
+    + Đưa ra văn bản kết quả của test, và log các trường hợp test thất bại.
+    + Tổng hợp kết quả test cases vào trong RTM
+    + Kiểm tra lại các bản bị lỗi.
+    + Theo dõi các defects để sữa chữa.
+    #### Thứ cần được bàn giao:
+    + Hoàn thành RTM cùng trạng thái thực thi.
+    + Các test cases đã được update cùng với kết quả.
+    + Báo cáo Defect.
+  ### 6. Test Cycle Closure:
+    + Giai đoạn kết thúc kiểm thử bao gồm hoàn thành báo cáo, 
+    + thu thập đầy đủ RTM và kết quả.
+    #### Activities:
+    + Đánh giá các tiêu chí hoàn thành chu trình dựa trên Time, Test coverage, Cost,Software, Critical Business Objectives, Quality.
+    + Chuẩn bị test metrics dựa trên các thông số trên.
+    + Ghi lại quá trình làm việc ngoài dự á.
+    + Báo cáo về định lượng và chất lượng của sản phẩm cho khách hàng.
+    + Phân tích kết quả kiểm thử để tìm ra sự phân bố lỗi theo loại và mức độ nghiêm trọng.
+    #### Thứ cần bàn giao:
+    + Báo cáo kết thúc Test.
+    + Test Metrics.
+  ### Summary:
+    #### Phân tích yêu cầu:
+    + Đầu vào: Các tài liệu sẵn có + Miêu tả tiêu chí đầu ra + Tài liệu về kiến trúc ứng dụng
+    + Đầu ra: RTM + các khả năng tự động hóa
+    #### Lên kết hoạch test:
+    + Đầu vào: RTM + các khả năng tự động hóa
+    + Đầu ra: Test plan/strategy document + Effort estimation document
+    #### Phát triển test case:
+    + Đầu vào: Test plan/strategy document + Effort estimation document
+    + Đầu ra: Test case/script + Test data.
+    #### Thiết lập môi trường test:
+    + Đầu vào: Test case/script + Test data.
+    + Đầu ra: Môi trường đã sẵn sàng cùng với test data setup + Kết quả của Smoke Test.
+    #### Thực thi test:
+    + Đầu vào: Môi trường đã sẵn sàng cùng với test data setup + Kết quả của Smoke Test.
+    + Đầu ra: Hoàn thành RTM cùng trạng thái thực thi + Các test cases đã được update cùng với kết quả + Báo cáo Defect.
+    #### Kết thúc vòng lặp:
+    + Đầu vào: Hoàn thành RTM cùng trạng thái thực thi + Các test cases đã được update cùng với kết quả + Báo cáo Defect.
+    + Đầu ra: Báo cáo kết thúc Test + Test Metrics.
+  ### Q&A:
+    + 1. Giai đoạn chuẩn bị test script và test data: **Test Design**
+    + 8. Giai đoạn nào mà test case đươc phát triển dựa vào Software Requirement: **Test Design**
+    + 2. Giai đoạn đầu tiên của STLC: **Test Planning**
+    + 3. Which phase involves defining the scope, objectives, resources, and schedule for testing?: **Test Planning**
+    + 4. Khi nào việc Test mà THẬT SỰ được thực hiện?: **Test Execution**
+    + 7. Giai đoạn nào bao gồm so sánh kết quả thực thi với kết quả được yêu cầu: **Test Execution**
+    + 5. Giai đoạn tổng hợp các hoạt động test và báo cáo test summary: **Test Closure**
+    + 6. Giai đoạn nào đảm bảo rằng tất cả các sản phẩm thử nghiệm được hoàn thiện và lưu trữ?: **Test Closure**
+    + 9. Mục đích của Test Execution: **To execute test case.**
+    + 10. What is the primary goal of the Test Closure phase?: **To formally close the testing activities**
+    + 11. Liên kết mỗi bước của vòng đời phát triển phần mềm với vòng đời kiểm thử phần mềm
+      **Business Requirements:**    *Acceptance tests*
+      **Hi-Level design**:          *Integration tests*
+      **Low-Level design**:         *Unit tests*
+      **Functional Specification**: *System tests*
+
+ 
