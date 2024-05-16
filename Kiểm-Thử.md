@@ -6,7 +6,7 @@
 
 # Tester Fundamental
 
-## ![What is Software Testing? Introduction, Definition, Basics & Types](https://www.guru99.com/software-testing-introduction-importance.html)
+## [What is Software Testing? Introduction, Definition, Basics & Types](https://www.guru99.com/software-testing-introduction-importance.html)
   ### Introduction
   - Là phương pháp để kiểm tra liệu sản phẩm phần mềm thực tế có phù hợp với các yêu cầu.
   - Và để đảm bảo sản phẩm phần mềm không có khiếm khuyết hay lỗi nào.
@@ -71,7 +71,7 @@
     - Có 3 loại test: functional, non-functional, maintenance.
     - Các important strategies: unit test, integration test, validation test, system test (AUT)
   
-## ![Software Testing as a Career Path (Skills, Salary, Growth)](https://www.guru99.com/software-testing-career-complete-guide.html)
+## [Software Testing as a Career Path (Skills, Salary, Growth)](https://www.guru99.com/software-testing-career-complete-guide.html)
   ### Skills
     - Non-Technical Skills 
       + Analytical skills
@@ -121,8 +121,8 @@
   ### Testing is context dependent: **Việc kiểm thử tùy thuộc vào ngữ cảnh**
     + Tất cả các phần mềm đều khác nhau, vì vậy ta cần tìm hiểu, và sử dụng các approach, methodologies, techniques, và nhiều loại test khác nhau sao cho phù hợp với ứng dụng.
     + For instance testing, any POS system at a retail store will be different than testing an ATM machine.
-## ![What is V Model in Software Testing? Learn with SDLC & STLC Example](https://www.guru99.com/v-model-software-testing.html)
-## ![STLC - Software Testing Life Cycle Phases & Entry, Exit Criteria](https://www.guru99.com/software-testing-life-cycle.html)
+## [What is V Model in Software Testing? Learn with SDLC & STLC Example](https://www.guru99.com/v-model-software-testing.html)
+## [STLC - Software Testing Life Cycle Phases & Entry, Exit Criteria](https://www.guru99.com/software-testing-life-cycle.html)
   + **Software Testing Life Cycle** là một chuỗi các hoạt động độc lập trong quá trình Kiểm thử nhằm đảm bảo được mục tiêu chất lượng của phần mềm.
   + STLC bao gồm **verification** và **validation** activities.
   + KHông như mọi người nghĩ, Kiểm thử phần mềm không phải là 1 hoạt động đơn lẻ/độc lập, mà nó bao gồm một chuỗi các sự kiện có phương pháp cụ thể, nhằm **chứng nhận** sản phẩm của các bạn.
@@ -140,4 +140,4 @@
     Entry Criteria đưa ra các mục tiên quyết phải được hoàn thành trước khi thử nghiệm có thể bắt đầu.
   ### Exit Criteria (Tiêu chuẩn đầu ra):
     Exit Criteria quy định mục phải được hoàn thành trước khi việc kiểm thử được hoàn thành.
-  ![STLC in Software Testing](https://www.youtube.com/watch?v=Dq5IYYqnnGQ&embeds_referring_euri=https%3A%2F%2Fwww.guru99.com%2F&feature=emb_imp_woyt)
+  [STLC in Software Testing](https://www.youtube.com/watch?v=Dq5IYYqnnGQ&embeds_referring_euri=https%3A%2F%2Fwww.guru99.com%2F&feature=emb_imp_woyt)
