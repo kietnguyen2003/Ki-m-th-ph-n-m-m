@@ -105,16 +105,16 @@
   3. QA Team Coordinator (5-6 years’ experience)
   4. Test Manager (8-11 years’ experience)
   5. Senior Test Manager (14+ experience)
-## 7 Software Testing Principles: **Learn with Examples**
-  ### Exhaustive testing is not possible: **Không thể kiểm soát hết lỗi**
-  ### Defect clustering: **Phân loại lỗi theo cụm**
-  ### Pesticide paradox: **Vòng đời của thuốc trừ sâu**
+## 7 Software Testing Principles: *Learn with Examples*
+  ### Exhaustive testing is not possible: *Không thể kiểm soát hết lỗi*
+  ### Defect clustering: *Phân loại lỗi theo cụm*
+  ### Pesticide paradox: *Vòng đời của thuốc trừ sâu*
   + Các lỗi giống như sâu bệnh vậy, nếu ta cứ dùng 1 cách để debug 1 lỗi, thì sẽ rất khó để tìm ra một new defects. Vì vậy các phương pháp cần phải được **reviewed & revised**.
   + Một Tester không nên chỉ dựa dẫm vào **1 techniques** có sẵn, ta cần phải phát triển **các methods khác nhau** để việc **test more effective**.
-  ### Testing shows presence of defects **Việc kiểm thử cho thấy sự hiện diện của defects**
-  ### Absence of errors fallacy **Không có lỗi là ngụy biện**
-  ### Early testing: **Test sớm**
-  ### Testing is context dependent: **Việc kiểm thử tùy thuộc vào ngữ cảnh**
+  ### Testing shows presence of defects: *Việc kiểm thử cho thấy sự hiện diện của defects*
+  ### Absence of errors fallacy: *Không có lỗi là ngụy biện*
+  ### Early testing: *Test sớm*
+  ### Testing is context dependent: *Việc kiểm thử tùy thuộc vào ngữ cảnh*
   + Tất cả các phần mềm đều khác nhau, vì vậy ta cần tìm hiểu, và sử dụng các approach, methodologies, techniques, và nhiều loại test khác nhau sao cho phù hợp với ứng dụng.
   + For instance testing, any POS system at a retail store will be different than testing an ATM machine.
 ## [What is V Model in Software Testing? Learn with SDLC & STLC Example](https://www.guru99.com/v-model-software-testing.html)
@@ -133,10 +133,10 @@
   + ***Test Cycle Closure***
   Mỗi giai đoạn đều có **Entry and Exit criteria** và **Deliverables**
   ### Entry and Exit Criteria
-    #### Entry Criteria (Tiêu chí đầu vào): 
-    Entry Criteria đưa ra các mục tiên quyết phải được hoàn thành trước khi thử nghiệm có thể bắt đầu.
-    #### Exit Criteria (Tiêu chuẩn đầu ra):
-    Exit Criteria quy định mục phải được hoàn thành trước khi việc kiểm thử được hoàn thành.
+  #### Entry Criteria (Tiêu chí đầu vào): 
+  Entry Criteria đưa ra các mục tiên quyết phải được hoàn thành trước khi thử nghiệm có thể bắt đầu.
+  #### Exit Criteria (Tiêu chuẩn đầu ra):
+  Exit Criteria quy định mục phải được hoàn thành trước khi việc kiểm thử được hoàn thành.
   ### 1. Requirement Phase Testing: Phân tích yêu cầu
   Kiểm thử giai đoạn yêu cầu còn được gọi là **Phân tích yêu cầu**, trong đó nhóm kiểm thử nghiên cứu các yêu cầu từ quan điểm kiểm thử để xác định các yêu cầu có thể kiểm thử được và nhóm QA có thể tương tác với các bên liên quan khác nhau để hiểu chi tiết các yêu cầu. Yêu cầu có thể là chức năng hoặc phi chức năng. Tính khả thi về tự động hóa cho dự án thử nghiệm cũng được thực hiện trong giai đoạn này.
     #### Activites:
