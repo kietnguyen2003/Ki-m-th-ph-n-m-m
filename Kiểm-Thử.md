@@ -1,8 +1,8 @@
 # KTPM note
- Project-Seminar: chọn chủ đề và trả lời các câu hỏi (What, Why, How, ...).
- Project-Case Study: cô sẽ gửi 1 sản phẩm và test.
- Mid-term test: thi viết (hên xui)
- Final test: thi viết.
+- Project-Seminar: chọn chủ đề và trả lời các câu hỏi (What, Why, How, ...).
+- Project-Case Study: cô sẽ gửi 1 sản phẩm và test.
+- Mid-term test: thi viết (hên xui)
+- Final test: thi viết.
 
 # Tester Fundamental
 
@@ -21,50 +21,50 @@
   - Customer Satisfaction
   ### Types:
    #### Functional Testing
-      + *Unit Testing*: Kiểm thử các đơn vị **nhỏ nhất** trong mã nguồn như hàm, module,...
-        **Lời khuyên cho Tester khi thực hiện unit test**:
-          *Viết unit test trước khi viết mã nguồn*: Unit test nên được viết trước khi viết mã nguồn, vì nó giúp đảm bảo rằng mã nguồn được viết theo như thiết  kế.
-          *Viết unit test cho từng đơn vị mã nguồn*: Mỗi đơn vị mã nguồn nên được kiểm tra bằng một hoặc nhiều unit test.
-          *Giữ unit test ngắn gọn và dễ hiểu*: Unit test nên ngắn gọn và dễ hiểu, để dễ dàng bảo trì và cập nhật.
-          *Tự động hóa việc thực thi unit test*: Việc thực thi unit test nên được tự động hóa để tiết kiệm thời gian và công sức.
-      + *Integration Testing*: là một kỹ thuật kiểm thử phần mềm nhằm kiểm tra sự **tương thích** và **tương tác** giữa các module, thành phần hoặc hệ thống khác nhau trong một ứng dụng phần mềm
-      + *Smoke*: là một kỹ thuật kiểm thử phần mềm nhằm kiểm tra các **chức năng cơ bản** và **quan trọng nhất** của một ứng dụng phần mềm để đảm bảo rằng ứng dụng có thể hoạt động được.
-      + *AUT (Application Under test)*: là **giai đoạn cuối cùng** của quá trình kiểm thử phần mềm **trước khi phần mềm được phát hành chính thức**. UAT được thực hiện bởi **người dùng cuối (end-user)** hoặc đại diện của họ để đảm bảo rằng phần mềm đáp ứng được các yêu cầu và mong đợi của họ.
-        **Mục đích của UAT**:
-          Kiểm tra xem phần mềm có đáp ứng được các yêu cầu kinh doanh của người dùng cuối hay không.
-          Đảm bảo rằng người dùng cuối có thể sử dụng phần mềm một cách dễ dàng và hiệu quả.
-          Phát hiện các lỗi hoặc vấn đề về khả năng sử dụng của phần mềm.
-          Thu thập phản hồi từ người dùng cuối để cải thiện phần mềm.
-      + *Localization*: là kiểm thử đảm bảo sản phẩm phù hợp với thị trường nội địa bao gồm các hoạt động:
-          *Kiểm tra bản dịch*: xem bản dịch có dễ hiểu và phù hợp hay không.
-          *Kiểm tra định dạng*: xem định dạng có phù hợp với các tiêu chuẩn hay không.
-          *Kiểm tra chức năng*: xem chức năng có phù hợp và hoạt động đúng với thị trường mục tiêu hay không.
-          *Kiểm tra khả năng sử dụng*
-          *Kiểm tra hiệu suất*
-      + *Globalization*: Kiểm thử toàn cầu là kiểm thử đảm bảo phần mềm có thể hoạt động hiệu quả ở các môi trường khác nhau trên toàn cầu, bao gồm các hoạt động:
-          *Kiểm tra ngôn ngữ*
-          *Kiểm tra khu vực địa lý.*
-          *Kiểm tra múi giờ.*
-          *Kiểm tra đơn vị tiền tệ*
-          *Kiểm tra định dạng ngày tháng.*
-          *Kiểm tra khả năng sử dụng.*
-          *Kiểm tra năng suất*
-      + *Interoperability*: Kiểm tra tính tương tác giữa phần mềm với các phần mềm hoặc hệ thống khác. Mục đích là đảm bảo hệ thống hoặc thành phần của phần mềm có thể chia sẻ dữ liệu, thực hiện giao dịch hoặc hoàn thành các nhiệm vụ chung một cách trơn tru. Các bước bao gồm
-        Kiểm tra giao thức.
-        Kiểm tra dữ liệu.
-        Kiểm tra chức năng.
-        Kiểm tra hiệu suất.
-        Kiểm tra bảo mật.
+    + *Unit Testing*: Kiểm thử các đơn vị **nhỏ nhất** trong mã nguồn như hàm, module,...
+      **Lời khuyên cho Tester khi thực hiện unit test**:
+        *Viết unit test trước khi viết mã nguồn*: Unit test nên được viết trước khi viết mã nguồn, vì nó giúp đảm bảo rằng mã nguồn được viết theo như thiết  kế.
+        *Viết unit test cho từng đơn vị mã nguồn*: Mỗi đơn vị mã nguồn nên được kiểm tra bằng một hoặc nhiều unit test.
+        *Giữ unit test ngắn gọn và dễ hiểu*: Unit test nên ngắn gọn và dễ hiểu, để dễ dàng bảo trì và cập nhật.
+        *Tự động hóa việc thực thi unit test*: Việc thực thi unit test nên được tự động hóa để tiết kiệm thời gian và công sức.
+    + *Integration Testing*: là một kỹ thuật kiểm thử phần mềm nhằm kiểm tra sự **tương thích** và **tương tác** giữa các module, thành phần hoặc hệ thống khác nhau trong một ứng dụng phần mềm
+    + *Smoke*: là một kỹ thuật kiểm thử phần mềm nhằm kiểm tra các **chức năng cơ bản** và **quan trọng nhất** của một ứng dụng phần mềm để đảm bảo rằng ứng dụng có thể hoạt động được.
+    + *AUT (Application Under test)*: là **giai đoạn cuối cùng** của quá trình kiểm thử phần mềm **trước khi phần mềm được phát hành chính thức**. UAT được thực hiện bởi **người dùng cuối (end-user)** hoặc đại diện của họ để đảm bảo rằng phần mềm đáp ứng được các yêu cầu và mong đợi của họ.
+      **Mục đích của UAT**:
+        Kiểm tra xem phần mềm có đáp ứng được các yêu cầu kinh doanh của người dùng cuối hay không.
+        Đảm bảo rằng người dùng cuối có thể sử dụng phần mềm một cách dễ dàng và hiệu quả.
+        Phát hiện các lỗi hoặc vấn đề về khả năng sử dụng của phần mềm.
+        Thu thập phản hồi từ người dùng cuối để cải thiện phần mềm.
+    + *Localization*: là kiểm thử đảm bảo sản phẩm phù hợp với thị trường nội địa bao gồm các hoạt động:
+        *Kiểm tra bản dịch*: xem bản dịch có dễ hiểu và phù hợp hay không.
+        *Kiểm tra định dạng*: xem định dạng có phù hợp với các tiêu chuẩn hay không.
+        *Kiểm tra chức năng*: xem chức năng có phù hợp và hoạt động đúng với thị trường mục tiêu hay không.
+        *Kiểm tra khả năng sử dụng*
+        *Kiểm tra hiệu suất*
+    + *Globalization*: Kiểm thử toàn cầu là kiểm thử đảm bảo phần mềm có thể hoạt động hiệu quả ở các môi trường khác nhau trên toàn cầu, bao gồm các hoạt động:
+        *Kiểm tra ngôn ngữ*
+        *Kiểm tra khu vực địa lý.*
+        *Kiểm tra múi giờ.*
+        *Kiểm tra đơn vị tiền tệ*
+        *Kiểm tra định dạng ngày tháng.*
+        *Kiểm tra khả năng sử dụng.*
+        *Kiểm tra năng suất*
+    + *Interoperability*: Kiểm tra tính tương tác giữa phần mềm với các phần mềm hoặc hệ thống khác. Mục đích là đảm bảo hệ thống hoặc thành phần của phần mềm có thể chia sẻ dữ liệu, thực hiện giao dịch hoặc hoàn thành các nhiệm vụ chung một cách trơn tru. Các bước bao gồm
+      Kiểm tra giao thức.
+      Kiểm tra dữ liệu.
+      Kiểm tra chức năng.
+      Kiểm tra hiệu suất.
+      Kiểm tra bảo mật.
    #### Non-Functional Testing or Performance Testing
-      + *Performance*: là một loại kiểm thử phi chức năng (Non-Functional Testing) tập trung vào việc **đo lường** và **đánh giá hiệu suất của phần mềm** dưới tải trọng khác nhau. Mục tiêu của Performance Testing là đảm bảo phần mềm hoạt động **ổn định**, **mượt mà** và **đáp ứng được thời gian phản hồi mong đợi** ngay cả khi có nhiều người dùng cùng sử dụng.
-      + *Edurance*: **Kiểm thử độ bền**, là một loại kiểm thử phi chức năng tập trung vào việc đánh giá khả năng hoạt động liên tục của phần mềm trong một khoảng thời gian dài (24h, 48h, 72h,...) dưới tải trọng cao. Mục đích của endurance testing là để đảm bảo rằng phần mềm có thể **hoạt động ổn định**, **không bị lỗi** và **đáp ứng được nhu cầu sử dụng trong thời gian dài**.
-      + *Load*: **Kiểm thử tải** là một loại kiểm thử phi chức năng (Non-functional testing) tập trung vào việc đo lường và **đánh giá** hiệu suất của phần mềm dưới tải trọng khác nhau. Mục tiêu của load testing là để đảm bảo phần mềm hoạt động **ổn định**, **mượt mà** và **đáp ứng được thời gian phản hồi** mong đợi ngay cả khi có nhiều người dùng cùng sử dụng.
-      + *Volume*: **Kiểm thử khối lượng** là một loại kiểm thử phi chức năng nhằm đánh giá khả năng của phần mềm trong việc **xử lý một lượng lớn dữ liệu**. Mục đích của volume testing là để đảm bảo rằng phần mềm có thể hoạt động **ổn định**, **hiệu quả** và **đáp ứng** được các yêu cầu về hiệu suất khi có **lượng lớn dữ liệu được xử lý**.
-      + *Scalability*: Kiểm tra mức độ có thể phát triển của phần mềm.
-      + *Usability*: Kiểm tra khả năng sử dụng của người dùng (bằng cách phỏng vấn, làm khảo sát,...) thường được sử dụng ở giai đoạn thiết kế, giai đoạn phát triển, giai đoạn thử nghiệm.
+    + *Performance*: là một loại kiểm thử phi chức năng (Non-Functional Testing) tập trung vào việc **đo lường** và **đánh giá hiệu suất của phần mềm** dưới tải trọng khác nhau. Mục tiêu của Performance Testing là đảm bảo phần mềm hoạt động **ổn định**, **mượt mà** và **đáp ứng được thời gian phản hồi mong đợi** ngay cả khi có nhiều người dùng cùng sử dụng.
+    + *Edurance*: **Kiểm thử độ bền**, là một loại kiểm thử phi chức năng tập trung vào việc đánh giá khả năng hoạt động liên tục của phần mềm trong một khoảng thời gian dài (24h, 48h, 72h,...) dưới tải trọng cao. Mục đích của endurance testing là để đảm bảo rằng phần mềm có thể **hoạt động ổn định**, **không bị lỗi** và **đáp ứng được nhu cầu sử dụng trong thời gian dài**.
+    + *Load*: **Kiểm thử tải** là một loại kiểm thử phi chức năng (Non-functional testing) tập trung vào việc đo lường và **đánh giá** hiệu suất của phần mềm dưới tải trọng khác nhau. Mục tiêu của load testing là để đảm bảo phần mềm hoạt động **ổn định**, **mượt mà** và **đáp ứng được thời gian phản hồi** mong đợi ngay cả khi có nhiều người dùng cùng sử dụng.
+    + *Volume*: **Kiểm thử khối lượng** là một loại kiểm thử phi chức năng nhằm đánh giá khả năng của phần mềm trong việc **xử lý một lượng lớn dữ liệu**. Mục đích của volume testing là để đảm bảo rằng phần mềm có thể hoạt động **ổn định**, **hiệu quả** và **đáp ứng** được các yêu cầu về hiệu suất khi có **lượng lớn dữ liệu được xử lý**.
+    + *Scalability*: Kiểm tra mức độ có thể phát triển của phần mềm.
+    + *Usability*: Kiểm tra khả năng sử dụng của người dùng (bằng cách phỏng vấn, làm khảo sát,...) thường được sử dụng ở giai đoạn thiết kế, giai đoạn phát triển, giai đoạn thử nghiệm.
    #### Maintenance (Regression and Maintenance)
-      + *Regression*: Kiểm thử quy hồi là kiểm tra xem các bản cập nhật hay thay đổi của phần mềm có lỗi hay có ảnh hưởng gì đến phần mềm hay không?
-      + *Maintenance*: Kiểm thử bảo trì được thực hiện sau khi phần mềm được phát hành và đưa vào sử dụng. Mục đích là đảm bảo phần mềm vẫn hoạt động chính xác, hiệu quả và đáp ứng đầy đủ các nhu cầu của người dùng.
+    + *Regression*: Kiểm thử quy hồi là kiểm tra xem các bản cập nhật hay thay đổi của phần mềm có lỗi hay có ảnh hưởng gì đến phần mềm hay không?
+    + *Maintenance*: Kiểm thử bảo trì được thực hiện sau khi phần mềm được phát hành và đưa vào sử dụng. Mục đích là đảm bảo phần mềm vẫn hoạt động chính xác, hiệu quả và đáp ứng đầy đủ các nhu cầu của người dùng.
   ### Summary of ST Basic:
     - Kiểm thử rất quan trọng bởi vì lỗi phần mềm sẽ gây thiết hại lớn về tiền và rất nguy hiểm.
     - Lý do quan trọng cho việc kiểm thử: tiết kiệm chi phí, bảo mật, chất lượng sản phẩm, và trãi nghiệm người dùng
