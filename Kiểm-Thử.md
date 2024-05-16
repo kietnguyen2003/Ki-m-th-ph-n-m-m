@@ -210,21 +210,21 @@
   + Báo cáo kết thúc Test.
   + Test Metrics.
 ## Summary:
--**Phân tích yêu cầu**
+  ### Phân tích yêu cầu:
   + Đầu vào: Các tài liệu sẵn có + Miêu tả tiêu chí đầu ra + Tài liệu về kiến trúc ứng dụng
   + Đầu ra: RTM + các khả năng tự động hóa
--**Lên kết hoạch test**:
+  ### Lên kết hoạch test:
   + Đầu vào: RTM + các khả năng tự động hóa
   + Đầu ra: Test plan/strategy document + Effort estimation document
--**Phát triển test case**:
+  ### Phát triển test case:
   + Đầu vào: Test plan/strategy document + Effort estimation document
   + Đầu ra: Test case/script + Test data.
--**Thiết lập môi trường test**:
+  ### Thiết lập môi trường test:
   + Đầu vào: Test case/script + Test data.
   + Đầu ra: Môi trường đã sẵn sàng cùng với test data setup + Kết quả của Smoke Test.
--**Thực thi test**:
+  ### Thực thi test:
   + Đầu vào: Môi trường đã sẵn sàng cùng với test data setup + Kết quả của Smoke Test.
   + Đầu ra: Hoàn thành RTM cùng trạng thái thực thi + Các test cases đã được update cùng với kết quả + Báo cáo Defect.
--**Kết thúc vòng lặp**:
+  ### Kết thúc vòng lặp:
   + Đầu vào: Hoàn thành RTM cùng trạng thái thực thi + Các test cases đã được update cùng với kết quả + Báo cáo Defect.
   + Đầu ra: Báo cáo kết thúc Test + Test Metrics.
